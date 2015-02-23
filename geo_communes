@@ -1,0 +1,117 @@
+
+import delimited C:\Users\Antoine\Desktop\FRCOM\communes\comsimp1999.txt
+save "C:\Users\Antoine\Desktop\FRCOM\communes\1999.dta"
+clear all
+import delimited C:\Users\Antoine\Desktop\FRCOM\communes\comsimp2000.txt
+save "C:\Users\Antoine\Desktop\FRCOM\communes\2000.dta"
+clear all
+import delimited C:\Users\Antoine\Desktop\FRCOM\communes\comsimp2001.txt
+save "C:\Users\Antoine\Desktop\FRCOM\communes\2001.dta"
+clear all
+import delimited C:\Users\Antoine\Desktop\FRCOM\communes\comsimp2002.txt
+save "C:\Users\Antoine\Desktop\FRCOM\communes\2002.dta"
+clear all
+import delimited C:\Users\Antoine\Desktop\FRCOM\communes\comsimp2003.txt
+save "C:\Users\Antoine\Desktop\FRCOM\communes\2003.dta"
+clear all
+import delimited C:\Users\Antoine\Desktop\FRCOM\communes\comsimp2004.txt
+save "C:\Users\Antoine\Desktop\FRCOM\communes\2004.dta"
+clear all
+import delimited C:\Users\Antoine\Desktop\FRCOM\communes\comsimp2005.txt
+save "C:\Users\Antoine\Desktop\FRCOM\communes\2005.dta"
+clear all
+import delimited C:\Users\Antoine\Desktop\FRCOM\communes\comsimp2006.txt
+save "C:\Users\Antoine\Desktop\FRCOM\communes\2006.dta"
+clear all
+import delimited C:\Users\Antoine\Desktop\FRCOM\communes\comsimp2007.txt
+save "C:\Users\Antoine\Desktop\FRCOM\communes\2007.dta"
+clear all
+import delimited C:\Users\Antoine\Desktop\FRCOM\communes\comsimp2008.txt
+save "C:\Users\Antoine\Desktop\FRCOM\communes\2008.dta"
+clear all
+import delimited C:\Users\Antoine\Desktop\FRCOM\communes\comsimp2009.txt
+save "C:\Users\Antoine\Desktop\FRCOM\communes\2009.dta"
+clear all
+import delimited C:\Users\Antoine\Desktop\FRCOM\communes\comsimp2010.txt
+save "C:\Users\Antoine\Desktop\FRCOM\communes\2010.dta"
+clear all
+import delimited C:\Users\Antoine\Desktop\FRCOM\communes\comsimp2011.txt
+save "C:\Users\Antoine\Desktop\FRCOM\communes\2011.dta"
+clear all
+import delimited C:\Users\Antoine\Desktop\FRCOM\communes\comsimp2012.txt
+save "C:\Users\Antoine\Desktop\FRCOM\communes\2012.dta"
+clear all
+import delimited C:\Users\Antoine\Desktop\FRCOM\communes\comsimp2013.txt
+save "C:\Users\Antoine\Desktop\FRCOM\communes\2013.dta"
+clear all
+import delimited C:\Users\Antoine\Desktop\FRCOM\communes\comsimp2014.txt
+save "C:\Users\Antoine\Desktop\FRCOM\communes\2014.dta"
+
+use "C:\Users\Antoine\Desktop\FRCOM\communes\1999.dta", clear
+gen annee = 1999
+save "C:\Users\Antoine\Desktop\FRCOM\communes\1999.dta", replace
+use "C:\Users\Antoine\Desktop\FRCOM\communes\2000.dta", clear
+gen annee = 2000
+save "C:\Users\Antoine\Desktop\FRCOM\communes\2000.dta", replace
+use "C:\Users\Antoine\Desktop\FRCOM\communes\2001.dta", clear
+gen annee = 2001
+save "C:\Users\Antoine\Desktop\FRCOM\communes\2001.dta", replace
+use "C:\Users\Antoine\Desktop\FRCOM\communes\2002.dta", clear
+gen annee = 2002
+save "C:\Users\Antoine\Desktop\FRCOM\communes\2002.dta", replace
+use "C:\Users\Antoine\Desktop\FRCOM\communes\2003.dta", clear
+gen annee = 2003
+save "C:\Users\Antoine\Desktop\FRCOM\communes\2003.dta", replace
+use "C:\Users\Antoine\Desktop\FRCOM\communes\2004.dta", clear
+gen annee = 2004
+save "C:\Users\Antoine\Desktop\FRCOM\communes\2004.dta", replace
+use "C:\Users\Antoine\Desktop\FRCOM\communes\2005.dta", clear
+gen annee = 2005
+save "C:\Users\Antoine\Desktop\FRCOM\communes\2005.dta", replace
+use "C:\Users\Antoine\Desktop\FRCOM\communes\2006.dta", clear
+gen annee = 2006
+save "C:\Users\Antoine\Desktop\FRCOM\communes\2006.dta", replace
+use "C:\Users\Antoine\Desktop\FRCOM\communes\2007.dta", clear
+gen annee = 2007
+save "C:\Users\Antoine\Desktop\FRCOM\communes\2007.dta", replace
+use "C:\Users\Antoine\Desktop\FRCOM\communes\2008.dta", clear
+gen annee = 2008
+save "C:\Users\Antoine\Desktop\FRCOM\communes\2008.dta", replace
+use "C:\Users\Antoine\Desktop\FRCOM\communes\2009.dta", clear
+gen annee = 2009
+save "C:\Users\Antoine\Desktop\FRCOM\communes\2009.dta", replace
+use "C:\Users\Antoine\Desktop\FRCOM\communes\2010.dta", clear
+gen annee = 2010
+save "C:\Users\Antoine\Desktop\FRCOM\communes\2010.dta", replace
+use "C:\Users\Antoine\Desktop\FRCOM\communes\2011.dta", clear
+gen annee = 2011
+save "C:\Users\Antoine\Desktop\FRCOM\communes\2011.dta", replace
+use "C:\Users\Antoine\Desktop\FRCOM\communes\2012.dta", clear
+gen annee = 2012
+save "C:\Users\Antoine\Desktop\FRCOM\communes\2012.dta", replace
+use "C:\Users\Antoine\Desktop\FRCOM\communes\2013.dta", clear
+gen annee = 2013
+save "C:\Users\Antoine\Desktop\FRCOM\communes\2013.dta", replace
+use "C:\Users\Antoine\Desktop\FRCOM\communes\2014.dta", clear
+gen annee = 2014
+save "C:\Users\Antoine\Desktop\FRCOM\communes\2014.dta", replace
+clear all
+use "C:\Users\Antoine\Desktop\FRCOM\communes\1999.dta", clear
+
+append using "C:\Users\Antoine\Desktop\FRCOM\communes\2000.dta"
+append using "C:\Users\Antoine\Desktop\FRCOM\communes\2001.dta"
+append using "C:\Users\Antoine\Desktop\FRCOM\communes\2002.dta"
+append using "C:\Users\Antoine\Desktop\FRCOM\communes\2003.dta"
+append using "C:\Users\Antoine\Desktop\FRCOM\communes\2004.dta"
+append using "C:\Users\Antoine\Desktop\FRCOM\communes\2005.dta"
+append using "C:\Users\Antoine\Desktop\FRCOM\communes\2006.dta"
+append using "C:\Users\Antoine\Desktop\FRCOM\communes\2007.dta"
+append using "C:\Users\Antoine\Desktop\FRCOM\communes\2008.dta"
+append using "C:\Users\Antoine\Desktop\FRCOM\communes\2009.dta"
+append using "C:\Users\Antoine\Desktop\FRCOM\communes\2010.dta"
+append using "C:\Users\Antoine\Desktop\FRCOM\communes\2011.dta"
+append using "C:\Users\Antoine\Desktop\FRCOM\communes\2012.dta"
+append using "C:\Users\Antoine\Desktop\FRCOM\communes\2013.dta"
+append using "C:\Users\Antoine\Desktop\FRCOM\communes\2014.dta"
+
+save "C:\Users\Antoine\Desktop\FRCOM\communes\99_14.dta"
