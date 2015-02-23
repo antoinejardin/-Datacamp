@@ -1,0 +1,44 @@
+
+## On peut inclure dans la base les résultats au BV même sans la géographie correspondante
+
+## Elections
+
+- ID ELEC
+- Partielle 
+- Tour
+- Type
+- Date en clair
+- Mode de scrutin
+
+## Géographique
+
+- ID GEO
+- ID ELEC
+- A date de l'élection
+- Référentiel géographique
+- Découpage des arrondissements / communes / canton / circonscription / département / région  (à chaque date)
+
+## Résultats
+
+- Id Elec
+- Id Geo
+- Id Cand (Abs / Non Exp inclus )
+- Id Etiquette 1
+- Id Etiquette 2
+- Nombre
+
+## Candidats
+
+- ID Cand
+- Nom 
+- Prenom
+- Sexe
+
+## Etiquettes
+
+- Etiquette 1
+- Etiquette 2
+
+## Erreurs
+
+- Incohérences 
